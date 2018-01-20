@@ -1,0 +1,577 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background:#C5CAE9;
+}
+#header {
+	width: 100%;
+	height: 39px;
+	margin: 0 auto;
+	background:#2196F3;
+}
+
+}#menu {
+	background:#2196F3;
+	background:#000;
+}
+#wrapper {
+	width: 100%;
+	height: 557px;
+	padding: 0px;
+	background:#2196F3;
+}
+#show {
+	width: 99.9%;
+	margin: auto;
+	padding: 5px;
+	background:#191919;
+	background:#C5CAE9;
+	text-transform: capitalize;
+}
+#logo {
+	text-align: center;
+	float: center;
+	padding-top: 25px;
+	color: #303F9F303F9F;
+}
+#contenSorteos {
+	border: 1px solid #ffffff;
+	background:#2196F3;
+}
+#contenMontos{
+	border: 1px solid #ffffff;
+	background:#2196F3;
+}
+#contenNumeros{
+	border: 1px solid #ffffff;
+	background:#2196F3;
+}
+#contenListaTicket{
+	border: 1px solid #ffffff;
+	background:#2196F3;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+#contenTickets{
+}
+#contenResultados{
+	float: left;
+	width: 197px;
+	height: 205px;
+	border: 1px solid #ffffff;
+	background:#2196F3;
+	padding: 10px;
+}
+#showN{
+	margin: auto;
+	font-family: "Arial";
+	font: normal 16px Arial, "Arial", Times, serif;	
+	color:#E6E6E6;
+}
+#contenAnular{
+	display: block;
+	float: left;
+	width: 78px;
+	height: 205px;
+	background:#BDBDBD;
+	border: 1px solid #ffffff;
+	background:#2196F3;
+	padding: 10px;
+}
+#contenPagar{
+	display: block;
+	float: left;
+	width: 78px;
+	height: 205px;
+	background:#BDBDBD;
+	border: 1px solid #ffffff;
+	background:#2196F3;
+	padding: 10px;
+}
+#tablaAnularPagar{
+	width: 150px;
+}
+#tablaAnularPagar input{
+	width: 100px;
+}
+#tablaAnularPagar input:focus{
+	color: #1c1c1c;
+	background:#57BA03;
+}
+#contenLista{
+	position: absolute;
+	display: none;
+	width: 350px;
+	height: 300px;
+	background:#ffffff;
+	border: 2px solid #171717;
+	margin-left: 500px;
+	margin-top: 100px;
+	overflow: scroll;
+}
+#contenLista table{
+	cursor: pointer;
+	margin-right: 10px;
+	margin-top: -10px;
+	width: 150px;
+	background:#ffffff;
+}
+#contenLista td:hover{
+	background:#57BA03;
+	color:#ffffff;
+}
+input{
+	width: 150px;
+	height: 15px;
+	border: none;
+	background: #303F9F;
+	border: 1px #171717;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+input::-webkit-input-placeholder {
+    color: #fff;
+	font: 14px Arial, Helvetica, sans-serif;
+}
+#login {
+	width: 310px;
+	height: 200px;
+	margin: 0 auto;
+	font: normal 18px Arial, "Arial", Times, serif;	
+	background:#2196F3;
+	color:#484848;
+	margin-top: 123px;
+}
+#login table{
+	margin-left: 20px;
+	margin: 0 auto;
+	width: 200px;
+}
+#login input{
+	margin-left: 20px;
+	margin: 0 auto;
+	width: 200px;
+}
+#img{
+	width:  90%;
+	height: 30%;
+}
+#login button{
+	width: 203px;
+	height: 20px;
+	border: 1px solid #ffffff;
+	background: #171717;
+	font-weight: bold;
+	font-size: 10px;
+	color: #929292;
+}
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #2C2C2C;
+}
+
+h1 {	font-size: 1.5em;	}
+
+h2 {	font-size: 2.4em;}
+
+h3 {	font-size: 1.6em;}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+	text-transform: capitalize;
+}
+title {
+	font: normal 34px Arial, "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: #303F9F303F9F;
+}
+a {
+	font: normal 34px Arial, "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: #303F9F303F9F;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+label {
+	font-size: 12px;
+	color: #fff;
+}
+input[type=checkbox] {
+	display:none; 
+}
+input[type=checkbox] + label {
+	cursor: pointer;
+}
+label:hover{
+	color: #ffffff;
+
+}
+#numero{
+	border: 1px solid #ffffff;
+}
+label:before {
+	content: "";
+	margin-left: 10px;	
+	margin-top: 5px;	
+	background: transparent;
+	border: 1px solid #fff;
+	text-shadow: 4px -2px 3px gray;
+	display: inline-block;
+	height: 15px;
+	width:  15px;
+	margin-right: 5px;
+	text-align: center;
+	vertical-align:middle;
+}
+input[type=checkbox]:checked + label:before {
+	background: #57BA03;
+	font-size: 10px;
+	color: #303F9F303F9F;
+	font-family: "Arial";
+}
+select[type=text]{
+	font-size: 18px;
+	color: #303F9F303F9F;
+	font-family: "Arial";
+	background: ;
+}
+
+#contenSubmits {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 800px;
+}
+#search {
+	margin-top: 10px;
+	float: left;
+	width: 200px;
+	height: 20px;
+}
+#text {
+	width: 140px;
+	height: 20px;
+	border: none;
+	background: #303F9F;
+	border: 1px #171717;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+#text:focus{
+	color: #1c1c1c;
+	background:#57BA03;
+}
+#text2:focus{
+	color: #1c1c1c;
+	background:#57BA03;
+}
+#idRep:focus{
+	color: #1c1c1c;
+	background:#57BA03;
+}
+#nombre:focus{
+	color: #1c1c1c;
+	background:#57BA03;
+}
+#idRep {
+	width: 140px;
+	height: 20px;
+	border: none;
+	background: #303F9F;
+	border: 1px #3E3E3E;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+#text2 {
+	width: 140px;
+	height: 20px;
+	border: none;
+	background: #303F9F;
+	border: 1px #3E3E3E;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+#nombre {
+	width: 140px;
+	height: 20px;
+	border: none;
+	background: #303F9F;
+	border: 1px #3E3E3E;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+#ticketF {
+	width: 50px;
+	height: 15px;
+	border: none;
+	text-transform: capitalize;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	background:transparent;
+	color: #171717;
+}
+#addNew {
+	float: right;
+	width: 300px;
+	height:524px;
+	background:#DBDBDB;
+ 	margin-right: : 200px;
+}
+#showTable {
+	float: left;
+	cursor:pointer;
+}	
+#listaSorteos {
+	margin: auto;
+	width: 110%;
+	cursor:pointer;
+}
+#listaSorteos td:hover {
+	background: #57BA03;
+}
+#listaMontos{
+	margin: auto;
+	width: 110%;
+	cursor:pointer;
+}	
+#listaMontos td:hover {
+	background: #57BA03;
+}
+#showNum {
+	float: left;
+	cursor:pointer;
+	display: none;
+	width: 100%;
+	background:#90CAF9;
+}	
+#showTableRight {
+	float: left;
+	width: 200px;
+	border: 1px;
+	border-color: #ffffff;
+	padding: 0px 0px 0px 0px;
+	cursor:pointer;
+}	
+#showP{
+	font-family: "Arial";
+	font: normal 18px Arial, "Arial", Times, serif;	
+	text-align: left;
+	border-radius: 15px;
+	background:#303F9F;
+	color:#fff;
+}
+#cNum{
+	font-family: "Arial";
+	font: normal 18px Arial, "Arial", Times, serif;	
+	text-align: center;
+	padding: 0;
+	background:#B5DBFA;
+	color:#545454;
+	border-radius: 15px;
+}
+#cNum:hover{
+	font-family: "Arial";
+	font: normal 18px Arial, "Arial", Times, serif;	
+	text-align: center;
+	background:#57BA03;
+	color:#545454;
+	border-radius: 15px;
+}
+#cNum input{
+	width: 80%;
+	font: normal 16px Arial, "Arial", Times, serif;	
+	color: #171717;
+	border-radius: 5px;
+	text-align: center;
+	background:transparent;
+}
+#showS{
+	background: #90CAF9;
+	color:#3A3A3A;
+	font: 14px Arial, Helvetica;
+}
+
+/* Search */
+
+
+
+#text-submit {
+	float: left;
+	margin-top: 5px;
+	width: 100%;
+	height: 25px;
+}
+#search form {
+	float: right;
+	height: 40px;
+	margin: 0;
+	padding: 0px 0 0 0px;
+}
+#monto{
+	width: 50px;
+	height: 15px;
+	border: none;
+	background: #FFFFFF;
+	font: normal 14px Arial, Helvetica, sans-serif;
+	color: #303F9F303F9F;
+}
+#submit {
+	width: 55px;
+	height: 20px;
+	border: 1px solid #ffffff;
+	background: #57BA03;
+	font-weight: bold;
+	font-size: 10px;
+	color: #171717;
+}
+#submitT {
+	width: 55px;
+	height: 20px;
+	border: 1px solid #ffffff;
+	background: #57BA03;
+	font-weight: bold;
+	font-size: 10px;
+	color: #171717;
+}
+#detalles {
+	text-align: left;
+	margin-top: 5px;
+	text-transform: capitalize;
+	margin-left: 10px;
+	width: 110px;
+	height: 25px;
+	border:1px solid #FFFFFF;
+	background: #89B056;
+	font-weight: bold;
+	cursor:pointer;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #2B2828;
+}
+#detallesT {
+	text-align: left;
+	margin-left: 5px;
+	width: 60px;
+	height: 25px;
+	border:1px solid #FFFFFF;
+	background: #171717;
+	font-weight: bold;
+	cursor:pointer;
+	font-size: 16px;
+	color: #929292;
+}
+#ticketInput {
+	width: 100px;
+	height: 15px;
+	font-size: 16px;
+	color: #303F9F303F9F;
+}
+#total {
+	width: 100px;
+	height: 15px;
+	font-size: 16px;
+	color: #303F9F303F9F;
+}
+}
+#detallesT {
+	text-align: left;
+	margin-top: 5px;
+	text-transform: capitalize;
+	margin-left: 5px;
+	width: 75px;
+	height: 25px;
+	border: 2px solid #89B056;
+	background: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	color: #303F9F303F9F;
+}
+#eliminar {
+	text-align: left;
+	float: center;
+	width: 30px;
+	border-radius: 5px;
+	border: 2px solid #FFFFFF;
+	background: #89B056;
+	font-size: 14px;
+	color: #303F9F303F9F;
+
+}
+
+/* Menu */
+
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	width: 105px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: #fff;
+	background: #2196F3;
+}
+
+#menu .current_page_item a {
+	height: 26px;
+	background: #898989;
+	background:#2196F3;
+	padding-left: 0;
+	color: #fcfcfc;
+}
+
+/* Footer */
+
+#footer {
+	width: 100%;
+	height: 40px;
+	background:#3F51B5;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 5px;
+	font-size: 10px;
+	text-transform: capitalize;
+	text-align: center;
+	color: #fff;
+}
+
+
+.table{
+	float: left;
+	width: 180px;
+	height: 180px;
+	cursor:pointer;	
+}
+
+#divNum{
+	height: 200px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	margin-top: 5px;
+	display: none
+}
